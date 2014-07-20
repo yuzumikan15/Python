@@ -42,6 +42,7 @@ def main():
 	links = [l for l in links if urlparse(l[0])[0]][3:]
 	for url, title in links[:10]:
 		print "%s" % url
+		print "%s" % title
 	#	print "[%s:title=%s]" % (url, title.decode("utf-8", "replace"))
 
 if __name__ == '__main__':
